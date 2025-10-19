@@ -1,0 +1,23 @@
+<!-- src/assets/netflix-icon.svg -->
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="iconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E50914"/>
+      <stop offset="100%" stop-color="#B2070F"/>
+    </linearGradient>
+    
+    <radialGradient id="playGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E0E0E0"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="40" height="40" rx="8" fill="url(#iconGradient)"/>
+  
+  <!-- Play Icon -->
+  <path d="M16 12L28 20L16 28V12Z" fill="url(#playGradient)"/>
+  
+  <!-- Reflection Effect -->
+  <path d="M8 8L32 8L32 12L8 12Z" fill="white" fill-opacity="0.1"/>
+</svg>
